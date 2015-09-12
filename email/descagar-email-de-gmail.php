@@ -25,7 +25,7 @@ $username = 'usuario@gmail.com';
 $password = 'password';
 
 
-$inbox = imap_open($hostname,$username,$password) or die('Ha fallado la conexión: ' . imap_last_error());
+$inbox = imap_open($hostname,$username,$password) or die('Ha fallado la conexiÃ³n: ' . imap_last_error());
 
 
 $emails = imap_search($inbox,'ALL');
