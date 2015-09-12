@@ -8,10 +8,10 @@
 <h1>Enviar email con PHP</h1>
 
 <?php
-$para      = 'vcuervo@gmail.com';
+$para = 'nombre@correo.com';
 $titulo = 'Enviando email desde PHP';
 $mensaje = 'Este es el primer email que envío desde PHP';
-$cabeceras = 'From: Victor<web@lineadecodigo.com>';
+$cabeceras = 'From: Mi Nombre<yo@correo.com>';
 
 $enviado = mail($para, $titulo, $mensaje, $cabeceras);
 
