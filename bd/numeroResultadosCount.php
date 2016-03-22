@@ -5,7 +5,7 @@
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   12-enero-2013
  * @url    http://lineadecodigo.com/php/numero-de-resultados-de-una-consulta-a-base-de-datos-con-php/
- * @description C—digo que muestra el nœmero de resultados de una consulta
+ * @description CÃ³digo que muestra el nÃºmero de resultados de una consulta
  */
 ?>
 

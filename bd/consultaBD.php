@@ -5,7 +5,7 @@
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   12-enero-2013
  * @url    http://lineadecodigo.com/php/consulta-a-una-base-de-datos-mysql-con-php/
- * @description C—digo que realiza una consulta a una BD MySQL
+ * @description CÃ³digo que realiza una consulta a una BD MySQL
  */
 ?>
 

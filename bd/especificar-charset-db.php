@@ -5,7 +5,7 @@
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   19-mayo-2013
  * @url    http://lineadecodigo.com/php/cambiar-el-charset-en-la-conexion-a-mysql/
- * @description C—digo que nos muestra como cambiar el charset en la conexi—n a una base de datos MySQL, para cambiarlo de latin1 a utf8..
+ * @description CÃ³digo que nos muestra como cambiar el charset en la conexiÃ³n a una base de datos MySQL, para cambiarlo de latin1 a utf8..
  */
 ?>
 

@@ -5,20 +5,20 @@
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   12-enero-2013
  * @url    http://lineadecodigo.com/php/numero-de-resultados-de-una-consulta-a-base-de-datos-con-php/
- * @description C—digo que muestra el nœmero de resultados de una consulta
+ * @description CÃ³digo que muestra el nÃºmero de resultados de una consulta
  */
 ?>
 
 
 <!doctype html>
 <html>
-<head><title>Nœmero de resultados de la base de datos con PHP</title>
+<head><title>Nï¿½mero de resultados de la base de datos con PHP</title>
 
 
 
 </head>
 <body>
-<h1>Nœmero de resultados de la base de datos con PHP</h1>
+<h1>Nï¿½mero de resultados de la base de datos con PHP</h1>
 
 
 <?php 
