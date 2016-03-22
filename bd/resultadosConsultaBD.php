@@ -12,13 +12,13 @@
 
 <!doctype html>
 <html>
-<head><title>N�mero de resultados de la base de datos con PHP</title>
+<head><title>Número de resultados de la base de datos con PHP</title>
 
 
 
 </head>
 <body>
-<h1>N�mero de resultados de la base de datos con PHP</h1>
+<h1>Número de resultados de la base de datos con PHP</h1>
 
 
 <?php 
