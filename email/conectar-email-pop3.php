@@ -18,31 +18,31 @@
 <body>
 <h1>Descargar emails con POP3 y PHP</h1>
 
- <?php 
+ <?php
 
 $hostname = '{mail.aulambra.com/notls}INBOX';
 $username = 'usuario@aulambra.com';
 $password = 'password';
 
 
-$inbox = imap_open($hostname,$username,$password) or die('Ha fallado la conexión: ' . imap_last_error());
+$inbox = imap_open($hostname,$username,$password) or die('Ha fallado la conexiÃ³n: ' . imap_last_error());
 
 
 $emails = imap_search($inbox,'ALL');
 
 if($emails) {
-  
+
   $salida = '';
-  
-  foreach($emails as $email_number) {    
+
+  foreach($emails as $email_number) {
     $overview = imap_fetch_overview($inbox,$email_number,0);
     $salida.= '<p>Tema: '.$overview[0]->subject.'<br/>';
-    $salida.= 'De: '.$overview[0]->from.'</p>';	   
+    $salida.= 'De: '.$overview[0]->from.'</p>';
   }
-  
+
   echo $salida;
 
-} 
+}
 
 imap_close($inbox);
 
