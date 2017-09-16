@@ -27,7 +27,7 @@ $cartas = array('As','Dos','Tres','Cuatro','Cinco','Seis','Siete','Ocho','Nueve'
  $palo = array_rand($palos, 1);
  $carta = array_rand($cartas, 1);
 
- print 'La carta que sali� de la baraja fue: ' . $cartas[$carta] . ' de ' . $palos[$palo] ;
+ print 'La carta que salió de la baraja fue: ' . $cartas[$carta] . ' de ' . $palos[$palo] ;
 
 ?>
 
