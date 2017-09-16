@@ -21,7 +21,7 @@ $mensaje = '<html>'.
 			'</html>';
 
 $cabeceras = 'MIME-Version: 1.0' . "\r\n";
-$cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";				
+$cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 $cabeceras .= 'From: Mi Nombre<yo@correo.com>';
 
 $enviado = mail($para, $titulo, $mensaje, $cabeceras);
@@ -32,8 +32,6 @@ else
 	echo 'Error en el envío del email';
 
 ?>
-
-
 
 <br/><br/>
 <hr>
