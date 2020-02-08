@@ -2,10 +2,10 @@
 /**
  * @file fecha.php
 * @version 1.0
-* @author Víctor Cuervo (http://lineadecodigo.com)
+* @author V√≠ctor Cuervo (http://lineadecodigo.com)
 * @date   31-agosto-2013
 * @url    http://lineadecodigo.com/php/xxx/
-* @description Programa que nos muestra el mes del año en el que estamos
+* @description Programa que nos muestra el mes del aÔøΩo en el que estamos
 */
 ?>
 
@@ -13,12 +13,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Fecha Publicación Documento</title>
+<title>Fecha Publicaci√≥n Documento</title>
 </head>
 <body>
 <h1>Hora en PHP</h1>
 
-<?php 
+<?php
 	date_default_timezone_set("Europe/Madrid");
 	echo "En formato 24h<br>";
 	echo date("H:i:s");

@@ -1,11 +1,11 @@
 <?php
 /**
- * @file fecha.php
+* @file fecha.php
 * @version 1.0
-* @author V�ctor Cuervo (http://lineadecodigo.com)
-* @date   31-agosto-2013
+* @author Víctor Cuervo - http://lineadecodigo.com
+* @date   31/agosto/2013
 * @url    http://lineadecodigo.com/php/xxx/
-* @description Programa que nos dice si un a�o es bisiesto o no
+* @description Programa que nos dice si un año es bisiesto o no
 */
 ?>
 
@@ -13,24 +13,24 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>A�o Bisiesto</title>
+<title>Año Bisiesto</title>
 </head>
 <body>
-<h1>A&ntilde;o Bisiesto</h1>
+<h1>Año Bisiesto</h1>
 
 
-<?php 
+<?php
 // Recuperamos el valor del GET
 
 if (isset($_GET["year"]) && $_GET["year"]!=""){
 
-	// Recuperamos el a�o como par�metro
+	// Recuperamos el año como parámetro
 	$year = $_GET["year"];
 
 	if (date("L",mktime(1,1,1,1,1,$year)))
-		echo $year." Es un a&ntilde;o bisieto";
+		echo $year." Es un año bisieto";
 	else
-		echo $year." No es un a&ntilde;o bisiesto";
+		echo $year." No es un año bisiesto";
 
 }
 ?>

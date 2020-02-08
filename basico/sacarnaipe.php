@@ -2,10 +2,10 @@
 /**
  * @file sacarnaipe.php
  * @version 1.0
- * @author José Sevilla (http://lineadecodigo.com)
+ * @author JosÃ© Sevilla (http://lineadecodigo.com)
  * @date   23/octubre/2010
  * @url    http://lineadecodigo.com/php/sacar-un-naipe-de-la-baraja-con-php/
- * @description Programa Hola Mundo en PHP  
+ * @description Programa Hola Mundo en PHP
  */
  ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -20,14 +20,14 @@
 
 <?php
 
-$palos = array('Picas','Corazones','Diamantes','Tréboles');
+$palos = array('Picas','Corazones','Diamantes','TrÃ©boles');
 $cartas = array('As','Dos','Tres','Cuatro','Cinco','Seis','Siete','Ocho','Nueve','Diez','Jota','Reina','Rey');
 
 
  $palo = array_rand($palos, 1);
  $carta = array_rand($cartas, 1);
- 
- print 'La carta que salió de la baraja fue: ' . $cartas[$carta] . ' de ' . $palos[$palo] ;
+
+ print 'La carta que saliÃ³ de la baraja fue: ' . $cartas[$carta] . ' de ' . $palos[$palo] ;
 
 ?>
 
