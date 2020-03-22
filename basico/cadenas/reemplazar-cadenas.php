@@ -4,7 +4,7 @@
  * @version 1.0
  * @author Víctor Cuervo (http://lineadecodigo.com)
  * @date   08/febrero/2020
- * @url    http://lineadecodigo.com/php/pdte/
+ * @url    http://lineadecodigo.com/php/reemplazar-caracteres-en-una-cadena-php/
  * @description Ejemplo que sustituye un caracter 'x' dentro de una cadena por un número.
  */
 
