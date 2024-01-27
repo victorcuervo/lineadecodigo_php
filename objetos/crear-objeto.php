@@ -6,7 +6,7 @@
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   10-mayo-2013
  * @url    http://lineadecodigo.com/php/crear-un-objeto-en-php/
- * @description Artículo que nos explica como podemos crear un objeto en PHP utilizando el sencillo ejemplo de un libro y sus propiedades.
+ * @description Art√≠culo que nos explica como podemos crear un objeto en PHP utilizando el sencillo ejemplo de un libro y sus propiedades.
  */
 
 $libro = new stdClass();
