@@ -5,7 +5,7 @@
  * @version 1.0
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   27/enero/2024
- * @url    https://lineadecodigo.com/linea-de-codigo/array-de-objetos-en-php/
+ * @url    https://lineadecodigo.com/php/array-de-objetos-en-php/
  * @description Crear un array que contenga objetos y luego recorrerlo.
  */
 
