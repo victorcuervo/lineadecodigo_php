@@ -5,7 +5,7 @@
  * @version 1.0
  * @author Linea de Codigo (http://lineadecodigo.com)
  * @date   28/enero/2024
- * @url    http://lineadecodigo.com/php/xxx/
+ * @url    https://lineadecodigo.com/blog/clase-anonima-en-php/
  * @description Crear una clase anónima
  */
 
